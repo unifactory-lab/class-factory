@@ -1,0 +1,42 @@
+
+{% extends "main.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+  {{ super() }}
+
+  <!-- Hero image -->
+
+  <img
+    class="hero-image"
+    src="images/cover.jpg"
+    alt=""
+    draggable="false"
+  ></img>
+
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+  {% if "material/tags" in config.plugins and tags %}
+    {% include "partials/tags.html" %}
+  {% endif %}
+
+  <!-- Actions -->
+  {% include "partials/actions.html" %}
+
+  <!-- Page content -->
+  {{ page.content }}
+
+  <!-- Source file information -->
+  {% include "partials/source-file.html" %}
+
+  <!-- Was this page helpful? -->
+  {% include "partials/feedback.html" %}
+
+  <!-- Comment system -->
+  {% include "partials/comments.html" %}
+{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}
