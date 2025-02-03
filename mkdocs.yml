@@ -1,10 +1,10 @@
 # Replace the text below to customize your site
 site_name: Cours Usine numérique
-docs_dir: 'docs/'
-site_dir: 'generated/'
+docs_dir: "docs/"
+site_dir: "generated/"
 
 site_description: Bienvenue sur le site dédié au cours d'usine numérique d'UniLaSalle Amiens.
-site_author: Jules Topart
+site_author: Jules Topart - Sebastian GOMEZ
 copyright: Copyright 2021 - Unilasalle Amiens - Creative Commons Attribution Non Commercial
 
 site_url: https://unifactory-lab.github.io/class-factory/
@@ -14,49 +14,49 @@ repo_name: class-factory
 edit_uri: edit/main/docs/
 
 nav:
-  - Accueil :
-    - index.md
-    - class/intro.md
-    - "Chapitre 1 : Les enjeux de l'usine du futur" : 
-      - class/chap1/index.md
-    - "Chapitre 2 : L'ère numérique" :
-      - class/chap2/index.md
-      - class/chap2/cao.md
-      - class/chap2/digital-twin.md
-      - class/chap2/fab.md
-      - class/chap2/simulation.md
-      - class/chap2/robotics.md
-      - class/chap2/ia.md
-      - class/chap2/data.md
-      - class/chap2/vr.md
-    - "Chapitre 3 : Méthode d'implantation" :
-      - class/chap3/index.md
-      - class/chap3/intro.md
-      - class/chap3/process.md
-      - class/chap3/innov.md
-      - class/chap3/projet.md
-    - "Chapitre 4 : Introduction à l'analyse numérique" : 
-      - class/chap4/index.md
-    - Résumé de cours : class/sos.md
-  - Exercices: 
-    - exo/index.md
-    - Travaux dirirgée: 
-      - exo/td1.md
-      - exo/td2.md
-      - exo/td3.md
-      - exo/td4.md
-    - Travaux pratiques: 
-      - exo/tp1.md
-      - exo/tp2.md
-      - exo/tp3.md
-      - exo/tp4.md
-      - exo/tp5.md
-      - exo/tp6.md
-      - exo/tp7.md
+  - Accueil:
+      - index.md
+      - class/intro.md
+      - "Chapitre 1 : Les enjeux de l'usine du futur":
+          - class/chap1/index.md
+      - "Chapitre 2 : L'ère numérique":
+          - class/chap2/index.md
+          - class/chap2/cao.md
+          - class/chap2/digital-twin.md
+          - class/chap2/fab.md
+          - class/chap2/simulation.md
+          - class/chap2/robotics.md
+          - class/chap2/ia.md
+          - class/chap2/data.md
+          - class/chap2/vr.md
+      - "Chapitre 3 : Méthode d'implantation":
+          - class/chap3/index.md
+          - class/chap3/intro.md
+          - class/chap3/process.md
+          - class/chap3/innov.md
+          - class/chap3/projet.md
+      - "Chapitre 4 : Introduction à l'analyse numérique":
+          - class/chap4/index.md
+      - Résumé de cours: class/sos.md
+  - Exercices:
+      - exo/index.md
+      - Travaux dirirgée:
+          - exo/td1.md
+          - exo/td2.md
+          - exo/td3.md
+          - exo/td4.md
+      - Travaux pratiques:
+          - exo/tp1.md
+          - exo/tp2.md
+          - exo/tp3.md
+          - exo/tp4.md
+          - exo/tp5.md
+          - exo/tp6.md
+          - exo/tp7.md
 
 theme:
   language: fr
-  custom_dir: './overrides/'
+  custom_dir: "./overrides/"
   name: material
   palette:
     - scheme: unilasalle
@@ -71,14 +71,14 @@ theme:
     text: "indivisa"
     code: Ubuntu Mono
   icon:
-    logo : material/book
+    logo: material/book
   features:
     - navigation.indexes
     - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
-    - search.suggest 
+    - search.suggest
     - navigation.footer
     - navigation.top
     - toc.follow
@@ -105,8 +105,6 @@ extra_javascript:
   - https://unpkg.com/function-plot/dist/function-plot.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjs/1.5.2/math.min.js
   - https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js
-  
-
 
 extra_css:
   - stylesheets/extra.css
@@ -114,38 +112,35 @@ extra_css:
   - stylesheets/pseudo-code.css
   - https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css
 
-
 markdown_extensions:
-- attr_list
-- pymdownx.keys
-- extra
-- meta
-- smarty
-- sane_lists
-- admonition
-- md_in_html
-- codehilite:
-    guess_lang: true
-- toc:
-    permalink: false
-- pymdownx.tasklist:
-    custom_checkbox: true
-    clickable_checkbox: true
-- pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg
-- pymdownx.details
-- pymdownx.tabbed
-- pymdownx.arithmatex:
+  - attr_list
+  - pymdownx.keys
+  - extra
+  - meta
+  - smarty
+  - sane_lists
+  - admonition
+  - md_in_html
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: false
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.arithmatex:
       generic: true
-- pymdownx.superfences:
-    custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
-      - name: vegalite
-        class: vegalite
-        format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
-- neoteroi.cards
-
-
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+  - neoteroi.cards

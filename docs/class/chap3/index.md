@@ -12,6 +12,8 @@ L'usine numérique est un regroupement d'outils au service de la stratégie, de 
 
 ## La chaine numérique de l'entreprise
 
+![](./images/pyramide.png)
+
 ### DMU (Maquette numérique)
 
 ### PLM (Gestion du cycle de vie produit)

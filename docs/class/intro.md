@@ -1,6 +1,8 @@
 # Usine numérique
 
-<iframe width="688" height="400" src="https://www.youtube.com/embed/zB8_HbrxUi8?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="688" height="400" src="https://www.youtube.com/embed/uCgnWqoP4MM?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Introduction
 
@@ -16,6 +18,9 @@ Si cette transformation de l'industrie est souvent associée au "futur" (et parf
 
 Nous proposons dans ce cours de faire l'état de ce qu'est le numérique afin d'identifier les technologies qui caractérisent l'industrie du futur. De par ce constat, nous pourrons différencier les technologies qui impacteront durablement notre tissu industriel, des solutions plus passagère.
 Nous nous efforcerons de faire apparaître les méthodes d'implantation de ces technologies dans l'industrie afin d'optimiser la transition vers le numérique.
+
+
+<iframe width="688" height="400" src="https://www.youtube.com/embed/zB8_HbrxUi8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## A votre avis ?
 

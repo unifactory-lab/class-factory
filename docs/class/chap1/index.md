@@ -54,7 +54,16 @@ Cette période sera profondément marquée par l'invention des circuits intégr�
 Le développement de l'électronique et de l'informatique rendent possible la production de composants miniaturisée de façon totalement automatisée.
 Cette période verra naître les premiers robots industriels encore utilisé aujourd'hui.
 
+<figure class="image">
+  <a href="https://youtu.be/6zo8uXhGQag?si=n66bGVTmny9gWXjO" target="_blank" rel="noopener noreferrer">
+    <img src="./images/kuka.jpg" alt="Robot Kuka">
+    <figcaption>1970 : L'équipe de développement du KR FAMULUS - le premier robot industriel au monde avec des axes à entraînement électrique
+    </figcaption>
+  </a>
+</figure>
+
 ![](./images/HistFactory2.jpg)
+
 
 La production automatisée décrit un processus quasi-autonome de fonctionnement de l'usine. Pour autant, les opérateurs ont toujours un rôle majeur dans l'usine. Il contrôle, paramètre et accompagne les cellules de production.
 Cependant les opérations de montage, peinture, assemblage, soudage ... Sont désormais assurée par des machines automatiques, soulageant ainsi les ouvriers, tout en améliorant la qualité des produits.
@@ -78,7 +87,7 @@ Contrairement aux précédentes révolutions industrielle, la quatrième touche 
 En France la transition vers le futur de l'industrie est propulsé par un projet nationnal appelé [Industrie du futur](https://www.economie.gouv.fr/lancement-seconde-phase-nouvelle-france-industrielle). Plus localement, dans les Hauts-de-france il s'agit du programme [Rev3](https://rev3.fr/).
 
 Le projet industrie du futur est prévu pour s'interfacer avec le projet de modernisation bien plus important mené par l'allemagne souvent considérer comme un des leader de la modernisation de l'industrie.
-En effet l'industrie représente 28% du PIB allemand, industrie qui a profité d'une relance économique après la deuxième guerre mondiale permettant de faire de l'allemagne un des piliers industriel européens. Toutefois, malgré ce qu'on entend souvent, l'allemagne n'est pas le plus gros industriel mondiale. Les entreprises américaines et chinoise en revanche apparaissent très régulièrement dans le haut du classements, tout comme, plus largement les entrerpise de l'union européene.
+En effet l'industrie représente 28% du PIB allemand, industrie qui a profité d'une relance économique après la deuxième guerre mondiale permettant de faire de l'allemagne un des piliers industriel européens. Toutefois, malgré ce qu'on entend souvent, l'allemagne n'est pas le plus gros industriel mondiale. Les entreprises américaines et chinoise en revanche apparaissent très régulièrement dans le haut du classements, tout comme, plus largement les entreprises de l'union européene.
 
 Comparativement, l'industrie en france ne représente que 12% du PIB national en effet, d'autre secteur comme le commerce, y occupent une place plus importante.
 L'industrie française est veillissante et c'est d'ailleurs ce constats qui est à l'origine du programme national __industrie du futur__ qui a pour objectifs prioritaire de renouveller le parc industrielle et de se réaproprier nos moyen de production.
@@ -88,8 +97,8 @@ Même si le numérique fait partie intégrante de la vie du grand public, ce n'e
 __A retenir__ : 
 
 - L'allemagne à la pointe de l'industrie 4.0 en europe
-- Les états unis concerve une certaine avance malgré un effort centré sur internet
-- La chine envisage sérieusement de devenir le premier producteur mondiale
+- Les Etats Unis concervent une certaine avance malgré un effort centré sur internet
+- La Chine envisage sérieusement de devenir le premier producteur mondiale
 - La France accuse un léger retard comparativement à sa place de 7e puissance économique.
 
 ### Les enjeux de l'industrie de demain
