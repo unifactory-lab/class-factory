@@ -31,9 +31,15 @@ Notons que lorsque \(n \rightarrow + \infty \), c'est à dire lorsque le nombre 
 
 \[ \lim\limits_{n \rightarrow \infty} \frac{b - a}{n} \sum_{k=1}^{n} f(a + k \frac{b - a}{n}) = \int_{a}^{b} f(x) \,dx \]
 
+|            Rectangles à gauche             |            Rectangles à droite            |
+| :----------------------------------------: | :---------------------------------------: |
+| ![](./images/riemann.bot.png){.img-medium} | ![](./images/riemann.up.png){.img-medium} |
 
-![](./images/riemann.bot.png){.img-small}
-![](./images/riemann.up.png){.img-small}
+
+
+![](./images/RiemannGif.gif){.img-medium  style="display: block; margin: 0 auto"} 
+
+
 
 #### Règle du Trapèze
 
@@ -41,9 +47,26 @@ La règle du trapèze est une méthode simple mais plus précise que la somme de
 
 - **Formule** : L'intégrale de \( f(x) \) sur \([a, b]\) est approximée par :
 
+\[\int_{a}^{b} f(x) dx = \frac{b-a}{n}\left(\frac{f(a) + f(b)}{2} + \sum_{k=1}^{n-1} f\left(a + k\frac{b-a}{n}\right)\right) + R_n(f)\]
+
 \[ \int_{a}^{b} f(x) \, dx \approx \frac{\Delta x}{2} [f(a) + 2f(x_1) + 2f(x_2) + \ldots + 2f(x_{n-1}) + f(b)] \]
 
-![](./images/trapeze.png){.img-medium}
+??? "Astuce"
+
+	Regardez les coefficients qui se trouvent devant chaque terme à l'interieur des crochets. Pour la régle du Trapeze les coeficients se répetent comme décrit sur la liste ci-dessous.
+
+	1. \[1 \Rightarrow 2 \Rightarrow 2 \Rightarrow ... \Rightarrow 2 \Rightarrow 2 \Rightarrow 1 \]
+
+	
+
+
+
+
+
+![](./images/trapeze.gif){.img-large style="display: block; margin: 0 auto"} 
+
+
+
 
 #### Règle de Simpson
 
